@@ -13,7 +13,7 @@ public class Resume
 
         foreach (Job job in _jobs)
         {
-            // This calls the Display method on each job
+            // This calls the Display method from the job classes on each job
             job.Display();
         }
     }
